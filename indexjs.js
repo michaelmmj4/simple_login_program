@@ -1,14 +1,10 @@
-<script type="text/javascript">
-
 function askName() {
 	var askUserName = prompt("What is your name?") 
 	if (askUserName === "Michael" || askUserName === "michael" || askUserName === "Michael Melin" || askUserName === "michael melin") {
 		document.write("Welcome back Michael.")
 	} else {
-		document.write(askUserName + ", you are not welcome in this system.")
+		document.write(askUserName + "," "you are not welcome in this system.")
 	}
 };
 
 askName();
-
-</script>
